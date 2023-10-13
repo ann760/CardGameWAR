@@ -3,8 +3,8 @@ package CardGameWAR;
 public class Card {
 
 //	variables
-	String name;
-	int value;
+	private String name;
+	private int value;
 	
 //	constructor
 	Card(String name, int value){
