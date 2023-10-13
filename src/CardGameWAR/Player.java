@@ -42,7 +42,7 @@ public class Player {
 	}
 
 	public void describe() {
-		System.out.println("Player: " + this.player + " Score: " + this.score + "\n---------------");
+		System.out.println("Player: " + this.player + " -- Score: " + this.score + "\n---------------");
 		for (Card card : playerHand) {
 			card.describe();
 		}
